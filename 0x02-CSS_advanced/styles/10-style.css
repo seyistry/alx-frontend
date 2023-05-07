@@ -65,6 +65,6 @@ a {
   text-decoration: none;
 }
 
-.section-title {
+.section-header {
  text-align: var(--section-header-align);
 }
