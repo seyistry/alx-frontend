@@ -39,6 +39,12 @@ section > h2 + a,
 section > h3 + a,
 section > h4 + a,
 section > h5 + a,
-section > h6 + a {
+section > h6 + a,
+section > h1 > a,
+section > h2 > a,
+section > h3 > a,
+section > h4 > a,
+section > h5 > a,
+section > h6 > a {
   font-family: var(--font-family-title);
 }
