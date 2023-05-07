@@ -40,18 +40,22 @@ body {
 
 a {
   text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
   color: var(--text-color);
 }
 
-a:visited {
+a:link:visited {
   font-style: italic;
 }
 
-a:hover {
+a:link:hover {
   text-decoration: underline;
 }
 
-a:active {
+a:link:active {
   color: var(--color-light-grey);
 }
 
