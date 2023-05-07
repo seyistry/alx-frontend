@@ -47,15 +47,15 @@ a:link {
   color: var(--text-color);
 }
 
-a:link:visited {
+a:visited {
   font-style: italic;
 }
 
-a:link:hover {
+a:hover {
   text-decoration: underline;
 }
 
-a:link:active {
+a:active {
   color: var(--color-light-grey);
 }
 
