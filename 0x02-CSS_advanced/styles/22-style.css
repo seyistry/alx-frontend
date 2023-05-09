@@ -186,7 +186,7 @@ template {
   --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
   --section-tagline-margin: 0;
-  --background: var(--color-black);
+
 }
 
 * {
@@ -345,12 +345,16 @@ ul.row {
 }
 
 .row::after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
 
-[class^='col-'] {
+[class^="col-"] {
   float: left;
   padding: 0.5rem;
+}
+
+[data-section-theme="dark"] {
+  background: var(--color-black);
 }
