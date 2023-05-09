@@ -482,12 +482,12 @@ ul.row {
   overflow: hidden;
 }
 
-/* .card-outer .card-image  img {
+.card-work > .card-image > img {
   height: 30rem;
   width: 100%;
   object-fit: cover;
   vertical-align: bottom;
-} */
+}
 
 .card-work .card-inner {
   position: absolute;
