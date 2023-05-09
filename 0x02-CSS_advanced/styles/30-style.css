@@ -501,13 +501,13 @@ ul.row {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.card-work .card-title {
+/* .card-work .card-title {
   text-align: center;
   margin: 0;
   opacity: 0.1;
   height: 100%;
   position: relative;
-}
+} */
 
 .card-work .card-title a {
   display: block;
