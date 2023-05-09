@@ -249,14 +249,14 @@ a:active {
   font-size: var(--button-font-size);
   color: var(--button-color);
   text-decoration: var(--button-text-decoration);
-  transition-duration: var(--transition-duration);
-  transition-property: color, background-color;
 }
 
 .button:hover {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
   background: var(--button-hover-background);
+  transition-duration: var(--transition-duration);
+  transition-property: color, background-color;
 }
 
 .visually-hidden {
@@ -361,7 +361,7 @@ h6 {
   background-color: var(--color-white);
   width: 0;
   height: 0.2rem;
-  transition: var(–transition-duration) var(transition-cubic-bezier);
+  transition: all var(–transition-duration) var(transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -487,6 +487,15 @@ ul.row {
   overflow: hidden;
 }
 
+.card-work:hover .card-outer {
+  transform: scale(0.95);
+}
+
+.card-work:hover .card-image {
+  transform: scale(1.2);
+  transition: all var(–transition-duration) var(transition-cubic-bezier);
+}
+
 .card-work .card-image img {
   height: 30rem;
   width: 100%;
@@ -500,6 +509,7 @@ ul.row {
   left: -0.1rem;
   right: -0.1rem;
   z-index: 1;
+  transition: all var(–transition-duration) var(transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
@@ -545,14 +555,4 @@ ul.row {
   color: #efeded;
   font-size: 10rem;
   z-index: -1;
-}
-
-.card-work:hover .card-image {
-  transform: scale(1.2);
-  transition: var(–transition-duration) var(transition-cubic-bezier);
-}
-
-.card-work:hover .card-outer {
-  transform: scale(0.95);
-  transition: var(–transition-duration) var(transition-cubic-bezier);
 }
