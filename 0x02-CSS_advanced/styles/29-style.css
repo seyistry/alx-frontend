@@ -360,9 +360,9 @@ h6 {
   height: 0.2rem;
 }
 
-.nav .nav-item:hover .nav-link {
-  /* background-color: var(--color-white);
-  width: 100%; */
+.nav .nav-item:hover .nav-link::before {
+  background-color: var(--color-white);
+  width: 100%;
 }
 
 ul.row {
