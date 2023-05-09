@@ -226,27 +226,28 @@ a:visited {
   font-style: italic;
 }
 
-a.button {
-  display: var(--button-display);
-  padding: var(--button-padding);
-  border: var(--button-border);
-  color: var(--button-color);
-  text-decoration: var(--button-text-decoration);
-  font-size: var(--button-font-size);
-}
-
-a.button:hover {
-  color: var(--button-hover-color);
-  text-decoration: var(--button-hover-text-decoration);
-  background: var(--button-hover-background);
-}
-
 a:hover {
   text-decoration: underline;
 }
 
 a:active {
   background-color: var(--color-light-grey);
+}
+
+a.button {
+  display: var(--button-display);
+  padding: var(--button-padding);
+  border: var(--button-border);
+  font-size: var(--button-font-size);
+  color: var(--button-color);
+  text-decoration: var(--button-text-decoration);
+  
+}
+
+a.button:hover {
+  color: var(--button-hover-color);
+  text-decoration: var(--button-hover-text-decoration);
+  background: var(--button-hover-background);
 }
 
 .visually-hidden {
