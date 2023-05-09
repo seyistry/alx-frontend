@@ -373,12 +373,12 @@ ul.row {
   fill: var(--text-color);
 }
 
-.card-services > .card-title {
-  /* margin: 0; */
+.card-services .card-title {
+  margin: 0;
 }
 
 .card-services a {
-  display: block;
+  /* display: block; */
   padding: 2rem;
   background: var(--color-light-grey);
 }
