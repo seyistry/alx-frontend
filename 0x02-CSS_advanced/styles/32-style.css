@@ -488,11 +488,11 @@ ul.row {
 }
 
 .card-work:hover .card-outer {
-  transform: scale(0.95);
+  /* transform: scale(0.95); */
 }
 
 .card-work:hover .card-image {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
   transition: all var(–transition-duration) var(transition-cubic-bezier);
 }
 
