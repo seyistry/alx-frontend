@@ -320,10 +320,10 @@ h6 {
   color: var(--nav-item-link-hover);
 }
 
-.row ul {
-  /* margin: 0;
-  padding: 0; */
-  /* list-style-type: none; */
+ul.row {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .col-1-3 {
